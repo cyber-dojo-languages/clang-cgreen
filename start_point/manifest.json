@@ -1,0 +1,23 @@
+
+{
+  "visible_filenames": [
+    "hiker.c",
+    "hiker.h",
+    "hiker_tests.c",
+    "Makefile",
+    "cyber-dojo.sh"
+  ],
+
+  "filename_extension": ".c",
+
+  "tab_size": 4,
+
+  "display_name": "C (clang), Cgreen",
+
+  "image_name": "cyberdojofoundation/clang_cgreen",
+
+  "progress_regexs" : [
+    "((\\d)+ tests)",
+    "(\\d)+ failure[s]?, (\\d)+ exception[s]?"
+  ]
+}
