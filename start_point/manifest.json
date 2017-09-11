@@ -1,5 +1,7 @@
 
 {
+  "display_name": "C (clang), Cgreen",
+
   "visible_filenames": [
     "hiker.c",
     "hiker.h",
@@ -8,13 +10,13 @@
     "cyber-dojo.sh"
   ],
 
+  "image_name": "cyberdojofoundation/clang_cgreen",
+
+  "runner_choice": "stateless",
+
   "filename_extension": ".c",
 
   "tab_size": 4,
-
-  "display_name": "C (clang), Cgreen",
-
-  "image_name": "cyberdojofoundation/clang_cgreen",
 
   "progress_regexs" : [
     "((\\d)+ tests)",
