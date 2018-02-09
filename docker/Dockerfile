@@ -1,15 +1,9 @@
 FROM  cyberdojofoundation/clang
 LABEL maintainer=jon@jaggersoft.com
 
-RUN apt-get update
-RUN apt-get -y install wget cmake unzip
-RUN wget https://github.com/cgreen-devs/cgreen/archive/master.zip
-RUN unzip master.zip
-RUN cd cgreen-master \
-  && mkdir build \
-  && cd build \
-  && cmake .. \
-  && make \
-  && make install
+ADD install.sh /
+
+RUN /install.sh && \
+    rm -f /install.sh
 
 COPY red_amber_green.rb /usr/local/bin
