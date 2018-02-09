@@ -1,4 +1,4 @@
-FROM  cyberdojofoundation/clang:5.0.1
+FROM  cyberdojofoundation/clang
 LABEL maintainer=jon@jaggersoft.com
 
 RUN apt-get update
