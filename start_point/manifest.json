@@ -14,7 +14,7 @@
 
   "runner_choice": "stateless",
 
-  "filename_extension": ".c",
+  "filename_extension": [ ".c", ".h" ],
 
   "tab_size": 4,
 
