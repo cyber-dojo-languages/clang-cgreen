@@ -2,7 +2,6 @@
 
 #include "hiker.h"
 
-
 Describe(hiker);
 BeforeEach(hiker) {}
 AfterEach(hiker) {}
