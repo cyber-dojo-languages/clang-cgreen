@@ -11,8 +11,6 @@
 
   "image_name": "cyberdojofoundation/clang_cgreen",
 
-  "runner_choice": "stateless",
-
   "filename_extension": [ ".c", ".h" ],
 
   "tab_size": 4,
