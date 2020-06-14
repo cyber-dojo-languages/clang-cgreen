@@ -1,4 +1,4 @@
-FROM cyberdojofoundation/clang
+FROM cyberdojofoundation/clang:ca81bbb
 LABEL maintainer=jon@jaggersoft.com
 
 COPY install.sh .
